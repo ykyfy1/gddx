@@ -3,7 +3,7 @@ permissions:
   contents: write
 on:
   schedule:
-    - cron: "02 16 * * *"
+    - cron: "02 15 * * *"
   workflow_dispatch:
 jobs:
   run-script:
